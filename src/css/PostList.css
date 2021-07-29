@@ -1,0 +1,101 @@
+a {
+    /* width: 100px; */
+    /* height: 100px; */
+    /* background: red; */
+    /* transition: width 2s; */
+    color: black;
+}
+
+a:link { 
+    text-decoration: none; 
+    color: black;
+}
+
+
+a:visited { 
+    text-decoration: none; 
+    /* color: black; */
+}
+
+
+a:hover { 
+    text-decoration: none; 
+    color: black;
+}
+
+
+a:active { 
+    text-decoration: none; 
+    color: black;
+}
+
+.postCard:hover {
+    /* background: red; */
+    /* opacity: 0.75; */
+    color: black;
+    transform: scale(1.05);
+    /* height: 200px; */
+}
+
+p:hover {
+    color: black;
+}
+
+
+.postCard {
+    /* position: fixed; */
+    transition: transform 0.2s;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: white;
+    max-width: 370px;
+    justify-content: center;
+}
+
+@media (max-width:1000px){
+    .postCard {
+        margin-top: 10px;
+    }
+
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.flex-child {
+    flex: 1 0 33%; /* explanation below */
+}
+
+.center {
+    justify-content: center;
+}
+
+.postImage {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 20px
+}
+
+.read {
+    text-decoration: underline;
+    color: #347deb;
+    /* margin-left: 5px; */
+}
+
+span.read{
+    margin-left: 5px;
+}
