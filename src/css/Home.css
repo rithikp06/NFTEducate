@@ -1,7 +1,7 @@
 body {
     background-color: #e6e9f0;
     /* font-family: sans-serif; */
-    font-family: Raleway;
+    /* font-family: Raleway; */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
@@ -9,12 +9,12 @@ body {
 #heading {
     /* background-color: #bccbde; */
     color: #fcfcfc;
-    font-size: 70px;
+    font-size: 80px;
     font-weight: bold;
     /* margin: 20px; */
     padding-top: 100px;
     /* margin-left: 150px; */
-    font-family: 'Raleway';
+    font-family: 'Aquire';
     font-weight: 500;
 }
 

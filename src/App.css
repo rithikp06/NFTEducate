@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: AquireBold;
+  src: url("assets/aquire-font/AquireBold-8Ma60.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Aquire;
+  src: url("assets/aquire-font/Aquire-BW0ox.otf") format("opentype");
+}

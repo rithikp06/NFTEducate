@@ -6,7 +6,7 @@ import Form from 'react-bootstrap/Form'
 import FormControl from 'react-bootstrap/FormControl'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Button from 'react-bootstrap/Button'
-import logo from "../assets/nfteducatelogo.png"
+import logo from "../assets/nft_educate_logo_new.png"
 import {
   BrowserRouter as Router,
   Switch,
@@ -19,9 +19,10 @@ const NavigationBar = () => {
   
     return (
       <Navbar bg="dark" expand="lg" fixed="top" variant="dark">
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/" style={{fontFamily: 'Aquire', fontSize: '50px', padding: '0', marginTop: '-15px', marginBottom: '-15px', marginRight: 20, color: '#7DCCFF'}}>
           {/* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/NFT_Icon.png/480px-NFT_Icon.png" alt="Lamp" width="40" />   */}
-            <img  src={logo}  className="d-inline-block align-top" alt="logo" height="40" /> 
+            {/* <img  src={logo}  className="d-inline-block align-top logoColor" alt="logo" height="40" />  */}
+            N
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
